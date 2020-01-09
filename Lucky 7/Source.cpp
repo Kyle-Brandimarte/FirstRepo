@@ -2,6 +2,7 @@
 //This is my own work
 //In class exercise 1/8/2020
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main() {
  double lb, kg;
@@ -11,10 +12,10 @@ int main() {
 	cout << "Weight in kilograms: " << kg ;
 
 	double s, area;
-	cout << "length: ";
+	cout << "\nlength: ";
 	cin >> s;
-		area = [(3 *(3) ^ 1 / 2) / 2] * s ^ 2;
-	cout << "Answer: " << area >> ;
+		area = ((3 *sqrt(3)) / 2) * s * s;
+	cout << "Answer: " << area <<endl ;
 	system("pause");
 
 
